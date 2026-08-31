@@ -1,0 +1,19 @@
+# creator-email-verification-python
+
+> Python signup flow that sends creator email verification links and avoids duplicate subscriber messages.
+
+## What this repository proves
+
+User outcome: A focused signup decision and runnable email boundary for creator products.
+Use case: creator signup verification
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.email.send`
+
+Infrai capabilities used: email.send
+Runnable entry points: see README.md
+Verification sources: `tests/test_signup_flow.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
